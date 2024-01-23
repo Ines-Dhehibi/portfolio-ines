@@ -8,8 +8,7 @@
     <meta content="" name="description">
   
     <!-- Favicons -->
-    <link href="../../img/favicon.png" rel="icon">
-    <link href="../../img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="icon" type="image/png" href="../../img/processus/ines.png"/>
   
     <!-- Bootstrap CSS File -->
     <link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,64 +25,73 @@
     <link href="../../css/mystyle.css" rel="stylesheet">
 
     <!-- Main Stylesheet File -->
-    <style>
+<style>
 
-        h3 {
-            font-size: poppins;
-            font-weight: bold;
-        }
+h3 {
+    font-size: poppins;
+    font-weight: bold;
+}
 
-        h5 {
-            font-size: poppins;
-            font-weight: bold;
-            color: #b3848f;
-        }
+h5 {
+    font-size: poppins;
+    font-weight: bold;
+    color: #b3848f;
+}
 
-        .my-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: flex-start;
-            align-items: flex-start;
-            margin-left: 140px;
-            margin-right: 140px;
-        }
-        
-        body {
-            margin: 20px;
-            padding: 0;
-        }
-        
-        .container {
-            width: 100%;
-            text-align: justify;
-        }
-        
-        
-        
-        @media only screen and (max-width: 768px) {
-            .button-container {
-                display: flex;
-                flex-direction: row; /* Changez la direction en ligne */
-                align-items: flex-start;
-                padding: 20px;
-                gap: 13px;
-                flex-wrap: wrap; /* Permettre le retour à la ligne si nécessaire */
-                width: 100%; /* Pour s'assurer que les boutons occupent toute la largeur sur mobile */
-            }
-        
-            .my-container {
-                margin-left: 0;
-                margin-right: 0;
-            }
-        
-            .image-container img {
-                width: calc(50% - 20px);
-            }
-        
-        }
-    </style>
+.my-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+body {
+    margin: 20px;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    text-align: justify;
+}
+
+.mychevron {
+    width: 3%;
+    margin-bottom: -150px;
+    margin-top: -50px;
+}
+
+@media only screen and (max-width: 768px) {
+    .button-container {
+        display: flex;
+        flex-direction: row; /* Changez la direction en ligne */
+        align-items: flex-start;
+        padding: 20px;
+        gap: 13px;
+        flex-wrap: wrap; /* Permettre le retour à la ligne si nécessaire */
+        width: 100%; /* Pour s'assurer que les boutons occupent toute la largeur sur mobile */
+    }
+
+    .my-container {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .image-container img {
+        width: calc(50% - 20px);
+    }
+
+    .mychevron {
+        width: 10%;
+    }
+    
+    }
+</style>
 </head>
 <body>  
+    <a href="../../index.html"><img class="mychevron" src="../../img/chevron.svg"></a>
     <section id="work" class="portfolio-mf sect-pt4 route">
         <div class="container">
             <div class="row">
