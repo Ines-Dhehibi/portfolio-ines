@@ -49,22 +49,22 @@
       <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#home">Home</a>
+            <a class="nav-link js-scroll active" href="#home">Acceuil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">About</a>
+            <a class="nav-link js-scroll" href="#about">Moi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#service">Services</a>
+            <a class="nav-link js-scroll" href="#cv">CV</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#work">Work</a>
+            <a class="nav-link js-scroll" href="#work">Réalisations</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll" href="#blog">Blog</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contact</a>
+            <a class="nav-link js-scroll" href="#contact">Contactez-moi</a>
           </li>
         </ul>
       </div>
@@ -183,13 +183,8 @@
       </div>
     </div>
   </section>
-  <style>
-    .moncv {
-      width: 100%;
-    }
-  </style>
-  <img class ="moncv" src="img/cv.png" alt="cv ines">
-  <embed src="https://www.codeur.com/tuto/wp-content/uploads/2022/02/pdf-test.pdf" width="800" height="500" type="application/pdf"/>
+ 
+  <embed id="cv" src="cv-ines.pdf" width="1430" height="1000" type="application/pdf"/>
 
   <!--/ Section Portfolio Star /-->
   <section id="work" class="portfolio-mf sect-pt4 route">
@@ -221,7 +216,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="work-box">
-                <a href="pages-portfolio/brendbook.html">
+                <a href="pages-portfolio/logo/echosDuCoeur.html">
                   <div class="work-img">
                     <img src="img/EDC/logo-edc.png" title="Voir mon logo" alt="Logo" class="img-fluid">
                   </div>
@@ -320,10 +315,12 @@
       transition: background-color 0.3s, box-shadow 0.3s;
       font-size: 15px;
       font-family: 'Poppins';
+      color:#7C5960;
     }
 
     .button:hover {
-      background-color: #f0f0f0;
+      background-color: #B8969E;
+      color: #ffffff;
     }
 
     .image-container {
@@ -359,17 +356,17 @@
       }
 
       #buttons {
-    flex: 1;
-    order: 2;
-    margin-right: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; /* Ajustez selon vos besoins */
-  }
+        flex: 1;
+        order: 2;
+        margin-right: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around; /* Ajustez selon vos besoins */
+      }
 
-  .button {
-    width: calc(50% - 10px); /* Deux boutons par ligne avec marges */
-  }
+      .button {
+        width: calc(50% - 10px); /* Deux boutons par ligne avec marges */
+      }
 
       #images {
         flex: 3;
@@ -378,16 +375,16 @@
       }
 
       .image-container:hover {
-      box-shadow: 0 8px 8px rgba(0.2, 0, 0, 0);
-    }
+        box-shadow: 0 8px 8px rgba(0.2, 0, 0, 0);
+      }
     
       .image-container {
-   /* Trois images par ligne sur desktop */
-      margin: 10px;
-      overflow: hidden;
-      border-radius: 10px;
-      transition: box-shadow 0.3s;
-    }
+    /* Trois images par ligne sur desktop */
+        margin: 10px;
+        overflow: hidden;
+        border-radius: 10px;
+        transition: box-shadow 0.3s;
+      }
 
       .image-container {
         flex: 0 0 calc(80% - 20px); /* Une image par ligne sur mobile avec marges */
