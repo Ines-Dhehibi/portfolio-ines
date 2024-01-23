@@ -1,16 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
-    <title>DevFolio Bootstrap Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Print Échos du Cœur</title>
     <!-- Favicons -->
-    <link href="../../img/favicon.png" rel="icon">
-    <link href="../../img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="icon" type="image/png" href="../../img/processus/ines.png"/>
 
     <!-- Bootstrap CSS File -->
     <link href="../../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,13 +20,9 @@
     <!-- Main Stylesheet File -->
     <link href="../../css/style.css" rel="stylesheet">
     <link href="../../css/mystyle.css" rel="stylesheet">
-    <link href="../../css/style-projects.css" rel="stylesheet">
-
-
 </head>
-
+<body>
 <style>
-
 h5 {
     font-size: poppins;
     font-weight: bold;
@@ -41,7 +32,7 @@ h5 {
 .work-box:hover img {
     -webkit-transform: scale(1.3);
     transform: scale();
-  }
+    }
 
 .work-img{
     border:20px;
@@ -94,27 +85,24 @@ button:hover {
     background-color: #f0f0f0;
 }
 
-
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end; /* Aligner les images à droite */
+    align-items: flex-start;
+    margin: 20px;
+}
 
 .image-container a {
     text-decoration: none;
 }
 
-.image-container {
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  margin: 20px;
-}
-
 .image-container img {
-  max-width: 100%;
-  max-height: 100%;
-  width: auto;
-  height: auto;
-  object-fit: contain; /* Vous pouvez également essayer "cover" en fonction de vos préférences */
-  border-radius: 15px;
-  transition: transform 0.3s;
+    max-width: 250px;
+    height: auto;
+    margin: 10px;
+    border-radius: 15px;
+    transition: transform 0.3s;
 }
 
 .image-container img:hover {
@@ -129,6 +117,12 @@ body {
 .container {
     width: 100%;
     text-align: justify;
+}
+
+.mychevron {
+    width: 3%;
+    margin-bottom: -200px;
+    margin-top: -150px;
 }
 
 
@@ -152,10 +146,15 @@ body {
     .image-container img {
         width: calc(50% - 20px);
     }
+    .mychevron {
+        width: 10%;
+    }
 
 }
-  </style>
-    
+
+</style>
+
+<a href="../../index.html"><img class="mychevron" src="../../img/chevron.svg"></a>
 <section id="work" class="portfolio-mf sect-pt4 route">
     <div class="container">
       <div class="row">
@@ -165,7 +164,7 @@ body {
               Inès
             </h3>
             <p class="subtitle-a">
-              Création Logo
+              Création de logo
             </p>
             <div class="line-mf"></div>
           </div>
@@ -191,9 +190,11 @@ body {
           <h5>Temps de Conception</h5>
           <p>L'élaboration de ce logo a été un processus intense de trois jours, durant lesquelles j'ai expérimenté avec différentes compositions pour atteindre l'harmonie parfaite entre l'expression artistique personnelle et la professionnalité requise pour un logo représentatif de mon art.</p>
       </div>
+      </div>
 
     
     </div>
-  </section>
+</section>
+    
 </body>
 </html>
